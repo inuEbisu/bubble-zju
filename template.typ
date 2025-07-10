@@ -33,7 +33,7 @@
   set figure.caption(separator: [ --- ], position: top)
 
   // customize inline raw code
-  show raw.where(block: false) : it => h(0.5em) + box(fill: primary-color.lighten(90%), outset: 0.2em, text(font: code-font, it)) + h(0.5em)
+  show raw.where(block: false) : it => h(0.5em) + box(fill: primary-color.lighten(90%), outset: 0.3em, radius: 0.3em, text(font: code-font, it)) + h(0.5em)
 
   // customize code blocks (```)
   show raw.where(block: true): it => block(
