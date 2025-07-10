@@ -3,14 +3,14 @@
 #set outline(title: "Table of contents")
 
 #show: bubble.with(
-  title: "ZJU Bubble template",
-  subtitle: "Simple and colorful template",
-  author: "hzkonor",
-  affiliation: "Zhejiang University",
+  title: "实验二：Typst模板实现",
+  subtitle: "Lab2 - Typst Template Implementation",
+  author: "324010XXXX 犬戎",
+  affiliation: "浙江大学 计算机科学与技术",
   date: datetime.today().display("[year] 年 [month padding:none] 月 [day padding:none] 日"),
-  year: "Year",
-  class: "Class",
-  other: ("Made with Typst", "https://typst.com")
+  year: "Typst 短学期 (Typst101) 2025",
+  // class: "Class",
+  // other: ("Made with Typst", "https://typst.com")
 ) 
 
 // Edit this content to your liking
@@ -34,6 +34,13 @@ The main color can be set with the `main-color` property, which affects inline c
 
 == Customized items
 
+This is a codeblock.
+
+```rust
+fn main() {
+  println!("Hello Typst!");
+}
+```
 
 Figures are customized but this is settable in the template file. You can of course reference them  : @ref.
 
@@ -44,6 +51,10 @@ fn main() {
 }
 ```
 )<ref>
+
+#figure(rect("This is a figure."), caption: "What a figure!")
+
+#figure(rect("This is another figure."), caption: "What a figure!")
 
 #pagebreak()
 
