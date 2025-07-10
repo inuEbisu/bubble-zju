@@ -17,8 +17,10 @@
 
 ## 使用
 
+克隆仓库到工作目录下，再使用 `#import` 语句导入。
+
 ```typ
-#import "github:inuEbisu/zju-bubble-template@main:template.typ"
+#import "zju-bubble-template/template.typ"
 ```
 
 ## License
