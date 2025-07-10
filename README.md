@@ -13,11 +13,15 @@
 
 ## 预览
 
-见仓库中的 `main.pdf` 示例。
+见仓库中的 `main.typ` 示例及其导出的 `main.pdf`。
+
+| 封面 | 特性测试 | 文字 |
+| -- | -- | -- |
+| ![main page](assets/main_1.png) | ![List of features](assets/main_2.png) | ![Example page](assets/main_3.png) |
 
 ## 使用
 
-克隆仓库到工作目录下，再使用 `#import` 语句导入。
+克隆仓库到工作目录下，再使用 `#import` 语句导入。随后就和 `main.typ` 中一样。
 
 ```typ
 #import "zju-bubble-template/template.typ"
