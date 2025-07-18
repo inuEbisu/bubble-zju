@@ -19,7 +19,7 @@
   // Save heading and body font families in variables.
   let body-font = "Source Han Sans SC"
   let title-font = ("Barlow", "Source Han Sans SC")
-  let code-font = "JetBrainsMonoNL NF"
+  let code-font = ("JetBrainsMonoNL NF", "LXGW WenKai Mono Screen")
 
   // Set colors
   let primary-color = rgb(main-color) // alpha = 100%
