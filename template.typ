@@ -30,7 +30,7 @@
   show regex(if color-words.len() == 0 { "$ " } else { color-words.join("|") }): text.with(fill: primary-color)
 
   // customize look of figure
-  set figure.caption(separator: [ --- ], position: top)
+  set figure.caption(separator: [ --- ])
 
   // customize inline raw code
   show raw.where(block: false) : it => h(0.5em) + box(fill: primary-color.lighten(90%), outset: 0.3em, radius: 0.3em, text(font: code-font, it)) + h(0.5em)
