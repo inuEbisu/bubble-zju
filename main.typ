@@ -11,7 +11,7 @@
   year: "Typst 短学期 (Typst101) 2025",
   // class: "Class",
   // other: ("Made with Typst", "https://typst.com")
-) 
+)
 
 // Edit this content to your liking
 
@@ -44,13 +44,11 @@ fn main() {
 
 Figures are customized but this is settable in the template file. You can of course reference them  : @ref.
 
-#figure(caption: [Code example],
-```rust
+#figure(caption: [Code example], ```rust
 fn main() {
   println!("Hello Typst!");
 }
-```
-)<ref>
+```)<ref>
 
 #figure(rect("This is a figure."), caption: "What a figure!")
 
