@@ -15,9 +15,9 @@
 
 见仓库中的 `main.typ` 示例及其导出的 `main.pdf`。
 
-| 封面 | 特性测试 | 文字 |
-| -- | -- | -- |
-| ![main page](assets/main_1.png) | ![List of features](assets/main_2.png) | ![Example page](assets/main_3.png) |
+| 封面                            | 使用例                                 |
+| ------------------------------- | -------------------------------------- |
+| ![main page](assets/main_1.png) | ![List of features](assets/main_4.png) |
 
 ## 使用
 
