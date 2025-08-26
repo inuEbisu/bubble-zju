@@ -4,10 +4,9 @@
 
 ## 特点
 
-- 保留 bubble-template 的简洁多彩风格
-- 内置浙大蓝与浙大校徽，适配浙江大学视觉元素
+- 大气的浙大蓝与浙大校徽，搭配 bubble-template 的简洁彩色风格
 - 支持自定义主色、作者、标题、日期、Logo 等
-- 页眉自动显示标题与作者，页码居中
+- 页眉自动显示标题与作者，页脚自动显示页码
 
 适用于浙江大学各类文档、作业、报告等场景。
 
@@ -21,10 +20,27 @@
 
 ## 使用
 
-克隆仓库到工作目录下，再使用 `#import` 语句导入。随后就和 `main.typ` 中一样。
+目前需要克隆仓库到工作目录下，再使用 `#import` 语句导入。随后就和 `main.typ` 中一样。
 
 ```typ
 #import "zju-bubble-template/template.typ"
+```
+
+预期在上传至 Typst Universe 后可以这样进行导入，不过目前还没有传：
+
+```typ
+#import "@preview/zju-bubble-template:0.1.0": *
+```
+
+没有内置字体，您可能需要安装以下字体：
+
+```typ
+#let needed-font = (
+    "Barlow",
+    "Source Han Sans SC",
+    "JetBrainsMonoNL NF",
+    "LXGW WenKai Mono Screen"
+)
 ```
 
 ## License
