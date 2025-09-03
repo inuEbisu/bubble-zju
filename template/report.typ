@@ -19,6 +19,9 @@
   // other: ("Made with Typst", "https://typst.com")
 )
 
+#outline(title: "目录")
+#pagebreak()
+
 = Introduction
 
 This is a simple template that can be used for a report.
