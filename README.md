@@ -12,9 +12,9 @@
 
 ## 预览
 
-| 封面                            | 使用例                                 |
-| ------------------------------- | -------------------------------------- |
-| ![main page](images/main_1.png) | ![List of features](images/main_4.png) |
+| 封面                            | 目录                           | 使用例                         |
+| ------------------------------- | ----------------------------- | ----------------------------- |
+| ![Main page](images/main_1.png) | ![Content](images/main_2.png) | ![Example](images/main_5.png) |
 
 可见仓库中的 `template/report.typ` 示例。
 
