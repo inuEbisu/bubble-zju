@@ -1,6 +1,6 @@
 // If you'd like to use the package (and if available), uncomment this:
 // #import "@preview/zju-bubble-template:0.1.0": *
-#import "template.typ": * // and remove this.
+#import "../lib.typ": * // and remove this.
 
 // and you can import any Typst package you want! For myself I usually use these.
 #import "@preview/note-me:0.5.0": *
