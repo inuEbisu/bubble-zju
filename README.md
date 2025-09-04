@@ -23,7 +23,7 @@
 目前需要克隆仓库到工作目录下，再使用 `#import` 语句导入。随后就和 `main.typ` 中一样。
 
 ```typ
-#import "zju-bubble/template.typ"
+#import "zju-bubble/lib.typ"
 ```
 
 预期在上传至 Typst Universe 后可以这样进行导入，不过目前还没有传：
