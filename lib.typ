@@ -9,7 +9,7 @@
   other: none,
   date: datetime.today().display("[year] 年 [month padding:none] 月 [day padding:none] 日"),
   logo: image("assets/zju_logo_blue.svg"),
-  main-color: "00468C",
+  main-color: "003F88",
   alpha: 0%,
   color-words: (),
   body,
@@ -155,5 +155,5 @@
 #let blockquote = rect.with(stroke: (left: 2.5pt + luma(170)), inset: (left: 1em))
 
 // use primary-color and secondary-color in main
-#let primary-color = rgb("E94845")
-#let secondary-color = rgb(255, 80, 69, 60%)
+#let primary-color = rgb("003F88")
+#let secondary-color = rgb(0, 63, 136, 60%)
