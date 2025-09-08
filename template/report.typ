@@ -54,7 +54,7 @@ fn main() {
 }
 ```
 
-在 zju-bubble 的配置中，西文字体使用「JetBrainsMonoNL NF」，中文字体使用「霞鹜文楷屏幕阅读版」。
+在 bubble-zju 的配置中，西文字体使用「JetBrainsMonoNL NF」，中文字体使用「霞鹜文楷屏幕阅读版」。
 
 ```py
 text = "未甚拔行间，犬戎大充斥"
