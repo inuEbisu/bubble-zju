@@ -1,4 +1,4 @@
-#import "@preview/zju-bubble:0.1.0": *
+#import "@preview/bubble-zju:0.1.0": *
 
 // and you can import any Typst package you want!
 #import "@preview/note-me:0.5.0": *

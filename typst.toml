@@ -1,11 +1,11 @@
 [package]
-name = "zju-bubble"
+name = "bubble-zju"
 version = "0.1.0"
 entrypoint = "lib.typ"
 authors = ["inuEbisu"]
 license = "MIT-0"
 description = "Modern Zhejiang Univerisity report."
-repository = "https://github.com/inuEbisu/zju-bubble"
+repository = "https://github.com/inuEbisu/bubble-zju"
 keywords = ["Zhejiang University", "report"]
 categories = ["report"]
 exclude = ["images"]
