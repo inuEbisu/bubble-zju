@@ -1,4 +1,4 @@
-# ZJU Bubble
+# Bubble ZJU
 
 浙江大学风格的 Typst 模板，基于 [hzkonor/bubble-template](https://github.com/hzkonor/bubble-template) 修改开发。
 
@@ -20,19 +20,19 @@
 
 ## 使用
 
-目前需要克隆仓库到工作目录下，再使用 `#import` 语句导入。随后就和 `main.typ` 中一样。
+可使用 Typst Universe 源导入：
 
 ```typ
-#import "zju-bubble/lib.typ"
+#import "@preview/bubble-zju:0.1.0": *
 ```
 
-预期在上传至 Typst Universe 后可以这样进行导入，不过目前还没有传：
+也可克隆仓库到工作目录下进行导入。
 
 ```typ
-#import "@preview/zju-bubble:0.1.0": *
+#import "bubble-zju/lib.typ"
 ```
 
-没有内置字体，您可能需要安装以下字体：
+字体没有内置，您可能需要安装以下字体：
 
 ```typ
 #let needed-font = (
